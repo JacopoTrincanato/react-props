@@ -11,6 +11,10 @@
         font-size: 5rem;
         border-radius: 20px 20px 0 0;
         box-shadow: 0 0 3px lightgrey;
+
+        img {
+            border-radius: 20px 20px 0 0;
+        }
     }
 
     .cardBottom {

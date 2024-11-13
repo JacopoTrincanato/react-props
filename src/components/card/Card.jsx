@@ -12,7 +12,7 @@ export default function Card({ post }) {
 
         <div className={style.card}>
             <div className={`${style.cardTop} ${style.dFlex}`}>
-                <p>{post.image}</p>
+                <img src={post.image} alt="immagine" />
             </div>
 
             <div className={style.cardBottom}>
