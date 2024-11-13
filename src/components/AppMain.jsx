@@ -11,6 +11,7 @@ export default function AppMain() {
     //eseguo il return
     return (
         <main>
+
             {posts.map(post => <Card key={post.id} post={post} />)}
         </main>
 
