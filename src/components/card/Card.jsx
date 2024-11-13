@@ -19,7 +19,13 @@ export default function Card({ post }) {
                     <h3 className={style.mt1}>{post.title}</h3>
                     <p className={style.mt1}>{post.content}</p>
 
-                    <section className={style.mt1}>{post.tags}</section>
+                    <p className={style.mt1}>
+                        {post.tags && post.tags.map((tag, index) => (
+                            <span key={index}>
+                                {tag}{index < post.tags.length - 1 ? ', ' : ''}
+                            </span>
+                        ))}
+                    </p>
                     <Button />
                 </div>
             </div>
