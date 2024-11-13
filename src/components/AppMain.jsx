@@ -30,11 +30,12 @@ export default function AppMain() {
             {posts.map(post => <Card key={post.id} post={post} />)}
 
             <section>
-                {uniqueTags && uniqueTags.map((tag, index) => (
+                <h3>Tag Utilizzati: {uniqueTags && uniqueTags.map((tag, index) => (
                     <span key={index}>
                         {tag}{index < uniqueTags.length - 1 ? ', ' : ''}
                     </span>
-                ))}
+                ))}</h3>
+
             </section>
         </main>
 
