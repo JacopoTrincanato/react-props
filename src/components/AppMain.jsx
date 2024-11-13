@@ -34,7 +34,8 @@ export default function AppMain() {
                     <span key={index}>
                         {tag}{index < uniqueTags.length - 1 ? ', ' : ''}
                     </span>
-                ))}</h3>
+                ))}
+                </h3>
 
             </section>
         </main>

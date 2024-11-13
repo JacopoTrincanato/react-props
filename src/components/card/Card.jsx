@@ -24,6 +24,8 @@ export default function Card({ post }) {
                             <span key={index}>
                                 {tag}{index < post.tags.length - 1 ? ', ' : ''}
                             </span>
+
+
                         ))}
                     </p>
                     <Button />
