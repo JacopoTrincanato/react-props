@@ -36,6 +36,18 @@
     margin-top: 1rem;
 }
 
-.coloredTag {
+.html {
     color: red;
+}
+
+.css {
+    color: lightskyblue;
+}
+
+.js {
+    color: yellow;
+}
+
+.php {
+    color: lightsteelblue;
 }
