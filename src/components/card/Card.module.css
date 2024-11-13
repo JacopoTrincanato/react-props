@@ -1,0 +1,33 @@
+.card {
+    width: 500px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+
+
+    .cardTop {
+        background-color: #cccccc;
+        height: 300px;
+        font-size: 5rem;
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 0 3px lightgrey;
+    }
+
+    .cardBottom {
+        height: 200px;
+        background-color: white;
+        padding: 0.75rem;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 0 3px lightgrey;
+    }
+}
+
+.dFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
