@@ -22,7 +22,7 @@ export default function Card({ post }) {
                     <p className={style.mt1}>
                         {post.tags && post.tags.map((tag, index) => (
                             <span className={style[tag]} key={index}>
-                                {tag}{index < post.tags.length - 1 ? ', ' : ''}
+                                {tag}{index < post.tags.length - 1 ? ' ' : ''}
                             </span>
 
 
